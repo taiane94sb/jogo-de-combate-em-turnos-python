@@ -42,7 +42,7 @@ class Heroi(Personagem):
     def get_habilidade(self):
         return self.__habilidade
 
-    def exibir_detalhes(self):
+    def get_habilidade(self):
         return f"{super().exibir_detalhes()}\nHabilidade: {self.get_habilidade()}\n"
 
     def ataque_especial(self, alvo):
